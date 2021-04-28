@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-grid
+{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(300px, 1fr)
+      ); //Nos hará breakpoints cada 300px
+}
